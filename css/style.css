@@ -75,3 +75,40 @@ header nav ul li {
 }
 
 /* FIN DEL HEADER - MENU  */
+footer {
+  background-color: var(--secondary-bg-color);
+  color: var(--secondary-font-color);
+  padding: 15px !important;
+}
+
+footer .footerMenu {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footerMenu p {
+  font-size: 14px;
+}
+
+footer .footerMenu ul {
+  margin: 5px 0 10px 0;
+}
+
+footer .footerMenu ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer .footerMenu ul li a {
+  color: var(--secondary-font-color);
+}
+
+footer .footerMenu .github-profile a {
+  display: inline-block;
+  color: var(--secondary-font-color);
+  margin-bottom: 5px;
+}
+
+footer .footerMenu .github-profile a img {
+    width: 20px;
+    vertical-align: middle;
+  }
