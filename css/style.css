@@ -1,0 +1,12 @@
+:root {
+  --primary-bg-color: white;
+  --secondary-bg-color: black;
+  --primary-font-color: black;
+  --secondary-font-color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
