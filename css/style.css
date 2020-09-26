@@ -81,4 +81,40 @@ header nav ul li {
 main img {
   width: 100%;
   height: 800px;
+  margin-bottom: 40px;
+}
+
+/* Seccion nosotros */
+
+main section h2 {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+hr {
+  border-bottom: 1px solid black;
+  width: 30%;
+}
+
+main div section p {
+  text-align: center;
+  margin: 40px;
+}
+
+/* sección 2 */
+
+main div section:nth-child(2) {
+  background-color: rgb(226, 225, 225);
+}
+
+main div section:nth-child(2) img {
+  width: 300px;
+  height: 200px;
+}
+
+main div section:nth-child(2) h3 {
+  font-weight: bold;
+  font-size: 25px;
 }
