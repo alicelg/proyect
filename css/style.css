@@ -98,31 +98,35 @@ hr {
   width: 30%;
 }
 
-main div section p {
+main section p {
   text-align: center;
   margin: 40px;
 }
 
 /* sección 2 */
 
-main div section:nth-child(2) {
+main section:nth-child(3) {
   background-color: rgb(226, 225, 225);
 }
 
-main div section:nth-child(2) img {
+main section img {
   width: 300px;
   height: 200px;
 }
 
-main div section:nth-child(2) h3 {
+main section:nth-child(3) div h3 {
   font-weight: bold;
   font-size: 25px;
 }
 
-main div section:nth-child(2) p {
+main section:nth-child(3) div p {
   display: inline-block;
   color: brown;
 }
+
+/* falta hacer el FORMULARIO */
+
+/* footer  */
 
 footer {
   background-color: var(--secondary-bg-color);
