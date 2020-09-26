@@ -1,0 +1,21 @@
+header {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 5px 80px;
+    z-index: 1000;
+    display: flex;
+}
+
+header nav ul li a:hover {
+    background-color: white;
+    color: black;
+    display: flex;
+}
