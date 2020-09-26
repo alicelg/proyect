@@ -10,3 +10,47 @@
   margin: 0 auto;
 }
 
+header {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  display: flex;
+}
+
+header p {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  font-style: italic;
+  display: inline-block;
+  margin: 10px 30px;
+}
+
+header div img {
+  width: 80px;
+  text-align: center;
+  display: inline-block;
+}
+
+header div a {
+  display: inline-block;
+}
+
+header nav {
+  display: inline-block;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+header nav ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+header nav ul li {
+  display: inline-block;
+}
