@@ -15,6 +15,6 @@ function cowSound() {
 
 
 function cowSpeech() {
-    speechSynthesis.speak(new SpeechSynthesisUtterance('Hola soy tu vaca chula'));
+    speechSynthesis.speak(new SpeechSynthesisUtterance('Vamos a hacer una web con Wix'));
 }
 
