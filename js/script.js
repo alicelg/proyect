@@ -9,7 +9,7 @@ cow.addEventListener('dblclick', cowSpeech)
 
 
 function cowSound() {
-    var audio = new Audio('../proyect/audio/cow.mp3');
+    var audio = new Audio('./audio/cow.mp3');
     audio.play();
 }
 
