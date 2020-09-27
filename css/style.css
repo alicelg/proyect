@@ -1,3 +1,17 @@
+body {}
+
+.fixed-cow {
+  background: url(../imagenes/Vaca2.png) no-repeat;
+  position: fixed;
+  right: 0px;
+  top: 20%;
+  /*   z-index: -1;
+ */
+  background-size: cover;
+  height: 400px;
+  width: 200px;
+}
+
 :root {
   --primary-bg-color: white;
   --secondary-bg-color: black;
@@ -6,12 +20,12 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 950px;
   margin: 0 auto;
 }
 
 header {
-  background-color: black;
+  background-color: var(--secondary-bg-color);
   width: 100%;
   position: fixed;
   display: flex;
@@ -103,9 +117,11 @@ main section p {
   margin: 40px;
 }
 
-/* sección 2 */
+/* sección 3 */
 
-main section:nth-child(3) {
+/* sección 4 */
+
+main section:nth-child(4) {
   background-color: rgb(226, 225, 225);
 }
 
