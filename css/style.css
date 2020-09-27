@@ -17,6 +17,8 @@ body {}
   --secondary-bg-color: black;
   --primary-font-color: black;
   --secondary-font-color: white;
+  --tertiary-bg-color: rgb(220, 217, 217);
+  --tertiary-font-color: rgb(92, 91, 91);
 }
 
 .container {
@@ -122,27 +124,65 @@ main section p {
 /* sección 3 */
 
 main section:nth-child(3) {
-  background-color: var(--secondary-bg-color);
+  background-color: var(--tertiary-bg-color);
 }
 
-main section img {
+main section article {
+  width: 400px;
+  height: 600px;
+  display: inline-block;
+  justify-content: space-between;
+  margin: 20px;
+  text-align: center;
+}
+
+main section article img {
   width: 400px;
   height: 300px;
-  margin: 40px;
+  display: inline-block;
+  margin: 0;
 }
 
-main section:nth-child(3) div h3 {
+main section:nth-child(3) div article h3 {
+  display: inline-block;
+  text-align: center;
   font-weight: bold;
   font-size: 25px;
-  color: var (--secondary-font-color);
+  color: var(--tertiary-font-color);
+  margin: 10px;
 }
 
-main section:nth-child(3) div p {
+main section:nth-child(3) article p {
   display: inline-block;
-  color: var(--secondary-font-color);
+  color: var(--tertiary-font-color);
+  width: 300px;
+  height: 200px;
 }
 
-/* falta hacer el FORMULARIO */
+/* FORMULARIO */
+
+main section:nth-child(4) form {
+  width: ;
+  height: ;
+  border-radius: 20%;
+  border: 1px solid;
+  border-color: var(--secondary-bg-color);
+}
+
+main section:nth-child(4) form h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: var(--tertiary-font-color);
+  margin: 10px;
+}
+
+main section:nth-child(4) form input {
+  border: 1px solid;
+  border-radius: 20px;
+  color: var(--primary-font-color);
+  background-color: var(--tertiary-bg-color);
+}
 
 /* footer  */
 
